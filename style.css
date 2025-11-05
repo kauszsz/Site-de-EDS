@@ -1,0 +1,173 @@
+body{
+    background-color: aliceblue; 
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#texto{
+     justify-content: center;
+        align-items: center;
+     width: 900px;
+     text-align: justify;
+    border: 3px solid antiquewhite; 
+    padding: 10px;
+    margin: 0px;
+}
+
+
+li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#HeaderSCD{
+    background-color: beige;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+#HeaderSCD2{
+    height: 30px;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+#h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: #E6E6FA;
+}
+
+#cabeçalho-1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabeçalho-2{
+text-align: left;
+margin-left: 469px;
+}
+
+
+#abio{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;   
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    gap:500px;
+}
+#abio2{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;   
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    gap:200px;
+}
+#Operarios{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#p1{
+  margin: 5px;
+  font-size: 20px;
+  width: 30%;
+  max-width: calc(100% - 520px);
+  text-align: left;
+  line-height: 1.5;
+}
+#LOGOUFABC{
+    border-radius: 10px;
+    float: center;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    border-style:none;
+    padding: 10px;
+}
+#nav1{
+    
+    display: flex;
+    justify-content: center; 
+    margin: 0;
+    padding: 10px;
+    background-color: #FFF0F5;
+    transition: 0.3s;
+    display: flex;
+}
+
+#nav1:hover{
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+#nav1 a:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+#navelinksindex{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.2rem; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#navelinksindex li a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    display: inline-block; 
+    padding: 6px 8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+#navelinksindex li a:hover{
+    color: purple;
+    background-color: beige;
+    border-radius: 100px;
+}
+
+#HeaderSCD2 a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#HeaderSCD2 a:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+#HeaderSCD2:hover{
+    background-color: lavenderblush;
+    padding: 10px;
+    border-radius: 100px;
+    transition: 0.3s;
+}
